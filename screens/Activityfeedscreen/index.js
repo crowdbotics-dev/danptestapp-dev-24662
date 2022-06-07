@@ -7,7 +7,10 @@ const pressed = () => {
 
 const ActivityFeedScreen = () => {
   return <ScrollView>
-      <View style={styles.container}>
+      <View style={{
+      left: 0,
+      top: -250
+    }}>
         <View style={styles.headerContainer}>
           <ProfileImage />
           <Text style={styles.headerText}>Jay Mahanga</Text>
