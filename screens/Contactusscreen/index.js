@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
-const AboutTheAppScreen = params => {
+const ContactUsScreen = params => {
   return <View style={styles.container}>
-      <Text style={styles.headingTxt}>About the App Screen</Text>
+      <Text style={styles.headingTxt}>Contact Us Screen</Text>
     </View>;
 };
 
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     marginVertical: 12
   }
 });
-export default AboutTheAppScreen;
+export default ContactUsScreen;
