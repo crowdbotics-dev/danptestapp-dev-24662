@@ -10,7 +10,11 @@ const ActivityFeedScreen = () => {
       <View style={styles.container}>
         <View style={styles.headerContainer}>
           <ProfileImage />
-          <Text style={styles.headerText}>Jay Mahanga</Text>
+          <Text style={{
+          left: 0,
+          top: 85
+        }}>DAniel
+        </Text>
           <Text style={styles.headerSubText}>jay@gmail.com</Text>
         </View>
         <View style={styles.followingSection}>
