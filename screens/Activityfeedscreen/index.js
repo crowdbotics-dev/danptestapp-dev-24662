@@ -54,7 +54,16 @@ const ActivityFeedScreen = () => {
           </View>
         </View>
       </View>
-    </ScrollView>;
+    <View style={{
+      left: 21,
+      top: 142,
+      position: "absolute",
+      height: 36,
+      width: 140,
+      backgroundColor: "#e54a4a",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></ScrollView>;
 };
 
 const styles = StyleSheet.create({
