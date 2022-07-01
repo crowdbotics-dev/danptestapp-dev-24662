@@ -27,7 +27,7 @@ const Untitled1 = () => {
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }} maxLength={16} editable={true} selectTextOnFocus={true} multiline={true}>1234567890123456</Text><Text style={{
+    }} maxLength={190} editable={true} selectTextOnFocus={true} multiline={true}>1234567890123456</Text><Text style={{
       left: 41,
       top: 234,
       position: "absolute",
