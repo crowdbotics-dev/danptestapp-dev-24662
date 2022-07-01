@@ -19,16 +19,24 @@ const Untitled1 = () => {
       borderRadius: 0,
       color: "#777777"
     }}></View><Text style={{
-      position: "absolute",
-      left: 48.5,
+      left: 43,
       top: 152,
+      position: "absolute",
       width: 100,
       height: 50,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0,
-      textAlign: "center"
-    }} maxLength={16} editable={true} selectTextOnFocus={true} multiline={true}>1234567890123456</Text></View>;
+      borderRadius: 0
+    }} maxLength={16} editable={true} selectTextOnFocus={true} multiline={true}>1234567890123456</Text><Text style={{
+      left: 41,
+      top: 234,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Lorem ipsum… </Text></View>;
 };
 
 export default Untitled1;
