@@ -46,7 +46,7 @@ const Untitled1 = () => {
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} multiline={true}></TextInput><TextInput style={{
+    }} multiline={true} autoCorrect={true}></TextInput><TextInput style={{
       left: 9,
       top: 105,
       position: "absolute",
