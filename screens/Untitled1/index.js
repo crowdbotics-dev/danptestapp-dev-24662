@@ -1,3 +1,4 @@
+import { Switch } from "react-native";
 import { TextInput } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -53,7 +54,13 @@ const Untitled1 = () => {
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }}></TextInput></View>;
+    }}></TextInput><Switch style={{
+      left: 24,
+      top: 160,
+      position: "absolute",
+      width: 50,
+      height: 25
+    }}></Switch></View>;
 };
 
 export default Untitled1;
