@@ -60,7 +60,7 @@ const Untitled1 = () => {
       position: "absolute",
       width: 50,
       height: 25
-    }}></Switch></View>;
+    }} value={true}></Switch></View>;
 };
 
 export default Untitled1;
