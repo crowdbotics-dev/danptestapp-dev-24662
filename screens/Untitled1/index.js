@@ -1,3 +1,4 @@
+import { Slider } from "react-native-elements";
 import { Switch } from "react-native";
 import { TextInput } from "react-native";
 import { Text } from "react-native";
@@ -21,8 +22,8 @@ const Untitled1 = () => {
       borderRadius: 0,
       color: "#777777"
     }}></View><Text style={{
-      left: 77,
-      top: 212,
+      left: 76,
+      top: 244,
       position: "absolute",
       width: 100,
       height: 50,
@@ -60,7 +61,17 @@ const Untitled1 = () => {
       position: "absolute",
       width: 50,
       height: 25
-    }} value={true}></Switch></View>;
+    }} value={true}></Switch><Slider thumbStyle={{
+      height: 20,
+      width: 20,
+      backgroundColor: "blue"
+    }} maximumValue={1} minimumValue={0} style={{
+      left: 18,
+      top: 200,
+      position: "absolute",
+      width: 150,
+      height: 40
+    }}></Slider></View>;
 };
 
 export default Untitled1;
