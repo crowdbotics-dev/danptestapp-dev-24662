@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
@@ -10,17 +11,17 @@ const Untitled1 = () => {
     height: '100%'
   }}>
       <View style={{
-      left: 26,
-      top: 45,
+      left: 7,
+      top: 6,
       position: "absolute",
-      height: 60,
-      width: 140,
+      height: 49,
+      width: 97,
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
     }}></View><Text style={{
-      left: 43,
-      top: 152,
+      left: 77,
+      top: 212,
       position: "absolute",
       width: 100,
       height: 50,
@@ -28,15 +29,31 @@ const Untitled1 = () => {
       fontSize: 14,
       borderRadius: 0
     }} maxLength={190} editable={true} selectTextOnFocus={true} multiline={true}>1234567890123456</Text><Text style={{
-      left: 41,
-      top: 234,
+      left: 11,
+      top: 289,
       position: "absolute",
       width: 100,
       height: 50,
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Lorem ipsum… </Text></View>;
+    }}>Lorem ipsum… </Text><TextInput style={{
+      left: 9,
+      top: 66,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }} multiline={true}></TextInput><TextInput style={{
+      left: 9,
+      top: 105,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }}></TextInput></View>;
 };
 
 export default Untitled1;
