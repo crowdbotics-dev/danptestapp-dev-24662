@@ -65,13 +65,13 @@ const Untitled1 = () => {
       height: 20,
       width: 20,
       backgroundColor: "blue"
-    }} maximumValue={1} minimumValue={0} style={{
+    }} maximumValue={10} minimumValue={0} style={{
       left: 18,
       top: 200,
       position: "absolute",
       width: 150,
       height: 40
-    }}></Slider></View>;
+    }} value={3}></Slider></View>;
 };
 
 export default Untitled1;
