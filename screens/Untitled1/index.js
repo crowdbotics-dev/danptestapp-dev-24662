@@ -55,7 +55,7 @@ const Untitled1 = () => {
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }}></TextInput><Switch style={{
+    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true}></TextInput><Switch style={{
       left: 24,
       top: 160,
       position: "absolute",
