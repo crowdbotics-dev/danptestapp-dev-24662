@@ -48,14 +48,14 @@ const Untitled1 = () => {
       width: 150,
       height: 30
     }} multiline={true} autoCorrect={true}></TextInput><TextInput style={{
-      left: 9,
-      top: 105,
+      left: 17,
+      top: 122,
       position: "absolute",
       backgroundColor: "#ffffff",
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true} showSoftInputOnFocus={true} autoFocus={true} allowFontScaling={true} secureTextEntry={true} selectTextOnFocus={true} multiline={true} autoCorrect={true}></TextInput><Switch style={{
+    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true} showSoftInputOnFocus={true} autoFocus={true} allowFontScaling={true} secureTextEntry={true} selectTextOnFocus={true} multiline={true} autoCorrect={true} placeholder="dan" defaultValue="daniel" maxLength={200}></TextInput><Switch style={{
       left: 24,
       top: 160,
       position: "absolute",
