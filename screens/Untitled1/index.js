@@ -30,13 +30,13 @@ const Untitled1 = () => {
       height: 30
     }} multiline={true} autoCorrect={true}></TextInput><TextInput style={{
       left: 11,
-      top: 102,
+      top: 100,
       position: "absolute",
       backgroundColor: "#ffffff",
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true} showSoftInputOnFocus={true} autoFocus={false} allowFontScaling={true} secureTextEntry={true} selectTextOnFocus={true} multiline={true} autoCorrect={true} placeholder="dan" defaultValue="daniel" maxLength={200}></TextInput><Switch style={{
+    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true} showSoftInputOnFocus={true} autoFocus={false} allowFontScaling={true} secureTextEntry={true} selectTextOnFocus={true} multiline={true} autoCorrect={true} placeholder="dan" defaultValue="daniel" maxLength={200} placeholderTextColor="rtrtrtd"></TextInput><Switch style={{
       left: 24,
       top: 138,
       position: "absolute",
