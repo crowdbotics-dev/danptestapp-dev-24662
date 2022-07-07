@@ -1,7 +1,6 @@
 import { Slider } from "react-native-elements";
 import { Switch } from "react-native";
 import { TextInput } from "react-native";
-import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
@@ -21,25 +20,7 @@ const Untitled1 = () => {
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
-    }}></View><Text style={{
-      left: 76,
-      top: 244,
-      position: "absolute",
-      width: 100,
-      height: 50,
-      lineHeight: 14,
-      fontSize: 14,
-      borderRadius: 0
-    }} maxLength={190} editable={true} selectTextOnFocus={true} multiline={true}>1234567890123456</Text><Text style={{
-      left: 11,
-      top: 289,
-      position: "absolute",
-      width: 100,
-      height: 50,
-      lineHeight: 14,
-      fontSize: 14,
-      borderRadius: 0
-    }}>Lorem ipsum… </Text><TextInput style={{
+    }}></View><TextInput style={{
       left: 9,
       top: 66,
       position: "absolute",
@@ -71,7 +52,17 @@ const Untitled1 = () => {
       position: "absolute",
       width: 150,
       height: 40
-    }} value={3}></Slider></View>;
+    }} value={3}></Slider><Slider thumbStyle={{
+      height: 20,
+      width: 20,
+      backgroundColor: "blue"
+    }} maximumValue={1} minimumValue={0} style={{
+      left: 22,
+      top: 264,
+      position: "absolute",
+      width: 150,
+      height: 40
+    }}></Slider></View>;
 };
 
 export default Untitled1;
