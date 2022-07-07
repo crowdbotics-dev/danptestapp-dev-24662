@@ -36,7 +36,7 @@ const Untitled1 = () => {
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true} showSoftInputOnFocus={true} autoFocus={false} allowFontScaling={true} secureTextEntry={true} selectTextOnFocus={true} multiline={true} autoCorrect={true} placeholder="dan" defaultValue="daniel" maxLength={200} placeholderTextColor="rtrtrtd"></TextInput><Switch style={{
+    }} spellCheck={true} enablesReturnKeyAutomatically={true} clearTextOnFocus={true} rejectResponderTermination={true} scrollEnabled={true} disableFullscreenUI={true} showSoftInputOnFocus={true} autoFocus={false} allowFontScaling={true} secureTextEntry={true} selectTextOnFocus={true} multiline={true} autoCorrect={true} placeholder="dan" defaultValue="daniel" maxLength={200} placeholderTextColor="red"></TextInput><Switch style={{
       left: 24,
       top: 138,
       position: "absolute",
