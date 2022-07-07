@@ -52,7 +52,7 @@ const Untitled1 = () => {
       position: "absolute",
       width: 150,
       height: 40
-    }} value={4}></Slider><Slider thumbStyle={{
+    }} value={8}></Slider><Slider thumbStyle={{
       height: 20,
       width: 20,
       backgroundColor: "blue"
@@ -62,7 +62,7 @@ const Untitled1 = () => {
       position: "absolute",
       width: 150,
       height: 40
-    }}></Slider><Slider thumbStyle={{
+    }} value={1}></Slider><Slider thumbStyle={{
       height: 20,
       width: 20,
       backgroundColor: "blue"
