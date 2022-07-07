@@ -62,7 +62,7 @@ const Untitled1 = () => {
       position: "absolute",
       width: 150,
       height: 40
-    }} value={1}></Slider><Slider thumbStyle={{
+    }} value={1} thumbTintColor="" maximumTrackTintColor="" minimumTrackTintColor="green"></Slider><Slider thumbStyle={{
       height: 20,
       width: 20,
       backgroundColor: "blue"
@@ -72,7 +72,7 @@ const Untitled1 = () => {
       position: "absolute",
       width: 150,
       height: 40
-    }}></Slider></View>;
+    }} maximumTrackTintColor="red"></Slider></View>;
 };
 
 export default Untitled1;
