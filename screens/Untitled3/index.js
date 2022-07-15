@@ -16,14 +16,10 @@ const Untitled3 = () => {
     }, {
       id: "1",
       value: "1",
-      label: "Option232"
-    }, {
-      id: "2",
-      value: "2",
-      label: "Option3"
+      label: "Option22"
     }]} layout="column" style={{
-      left: 21,
-      top: 74,
+      left: 57,
+      top: 95,
       position: "absolute"
     }}></RadioGroup></View>;
 };
