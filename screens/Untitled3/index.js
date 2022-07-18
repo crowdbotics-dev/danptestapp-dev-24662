@@ -12,17 +12,19 @@ const Untitled3 = () => {
       <RadioGroup radioButtons={[{
       id: "0",
       value: "0",
-      label: "Option1"
+      label: "Option 1"
     }, {
       id: "1",
       value: "1",
-      label: "Option22"
-    }]} layout="row" style={{
-      left: 0,
-      top: 69,
-      position: "absolute",
-      width: 196,
-      height: 90
+      label: "Option 2ss"
+    }, {
+      id: "2",
+      value: "2",
+      label: "Option 3"
+    }]} layout="column" style={{
+      left: 14,
+      top: 24,
+      position: "absolute"
     }}></RadioGroup></View>;
 };
 
