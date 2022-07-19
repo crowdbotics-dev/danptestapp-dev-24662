@@ -12,7 +12,7 @@ const Untitled1 = ({
     position: 'relative',
     height: '100%'
   }}>
-      <Pressable onPress={() => navigation.navigate("Untitled2")}><View style={{
+      <Pressable onPress={() => navigation.navigate("Untitled3")}><View style={{
         left: 20,
         top: 27,
         position: "absolute",
