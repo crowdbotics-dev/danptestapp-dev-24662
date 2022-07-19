@@ -1,24 +1,27 @@
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled2 = () => {
+const Untitled2 = ({
+  navigation
+}) => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
     position: 'relative',
     height: '100%'
   }}>
-      <View style={{
-      left: 21,
-      top: 20,
-      position: "absolute",
-      height: 60,
-      width: 140,
-      backgroundColor: "#E4E4E4",
-      borderRadius: 0,
-      color: "#777777"
-    }}></View><Text style={{
+      <Pressable onPress={() => navigation.navigate("Untitled3")}><View style={{
+        left: 21,
+        top: 20,
+        position: "absolute",
+        height: 60,
+        width: 140,
+        backgroundColor: "#E4E4E4",
+        borderRadius: 0,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
       left: 35,
       top: 228,
       position: "absolute",
