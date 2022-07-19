@@ -23,14 +23,14 @@ const Untitled2 = ({
         color: "#777777"
       }}></View></Pressable><Text style={{
       left: 35,
-      top: 228,
+      top: 227,
       position: "absolute",
       width: 100,
       height: 50,
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Lorem ipsum… </Text></View>;
+    }}>1dd560e5-b223-41b0-bdd2-e73dd95190e2</Text></View>;
 };
 
 export default Untitled2;

@@ -20,14 +20,14 @@ const Untitled3 = () => {
       color: "#777777"
     }}></View><Text style={{
       left: 49,
-      top: 218,
+      top: 217,
       position: "absolute",
       width: 100,
       height: 50,
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Lorem ipsum… </Text></View>;
+    }}>aaebc745-27dd-4d13-9f8d-8f67812b20c0</Text></View>;
 };
 
 export default Untitled3;
