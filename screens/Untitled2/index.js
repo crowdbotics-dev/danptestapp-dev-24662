@@ -2,7 +2,7 @@ import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled1 = () => {
+const Untitled2 = () => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -10,8 +10,8 @@ const Untitled1 = () => {
     height: '100%'
   }}>
       <View style={{
-      left: 20,
-      top: 27,
+      left: 21,
+      top: 20,
       position: "absolute",
       height: 60,
       width: 140,
@@ -30,4 +30,4 @@ const Untitled1 = () => {
     }}>Lorem ipsum… </Text></View>;
 };
 
-export default Untitled1;
+export default Untitled2;
