@@ -30,7 +30,7 @@ const Untitled2 = ({
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>ae711bea-7461-494a-8292-bfdc3803df2a</Text></View>;
+    }}>8ae6f126-057b-4128-afc3-b6e05b4a63e7</Text></View>;
 };
 
 export default Untitled2;
