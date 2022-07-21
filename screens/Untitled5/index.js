@@ -1,9 +1,12 @@
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled5 = () => {
+const Untitled5 = ({
+  navigation
+}) => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -18,25 +21,45 @@ const Untitled5 = () => {
       position: "absolute",
       width: 186,
       height: 175
-    }}></ImageBackground><View style={{
-      left: 86,
-      top: 301,
-      position: "absolute",
-      height: 35,
-      width: 90,
-      backgroundColor: "#E4E4E4",
-      borderRadius: 0,
-      color: "#777777"
-    }}></View><Text style={{
+    }}></ImageBackground><Pressable onPress={() => navigation.navigate(" Untitled5Copy1")}><View style={{
+        left: 103,
+        top: 299,
+        position: "absolute",
+        height: 35,
+        width: 90,
+        backgroundColor: "#E4E4E4",
+        borderRadius: 0,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
       left: 114,
-      top: 309,
+      top: 317,
       position: "absolute",
       width: 83,
       height: 35,
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Next</Text></View>;
+    }}>Next</Text><Pressable onPress={({
+      navigation
+    }) => navigation.navigate("Welcome Screen")}><View style={{
+        left: 4,
+        top: 300,
+        position: "absolute",
+        height: 35,
+        width: 49,
+        backgroundColor: "#E4E4E4",
+        borderRadius: 0,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
+      left: 24,
+      top: 317,
+      position: "absolute",
+      width: 83,
+      height: 35,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Skip</Text></View>;
 };
 
 export default Untitled5;
