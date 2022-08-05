@@ -8,7 +8,7 @@ const pressed = () => {
 const ActivityFeedScreen = () => {
   return <ScrollView>
       <View style={{
-      backgroundColor: "#dd4848"
+      backgroundColor: "#1bb43b"
     }}>
         <View style={styles.headerContainer}>
           <ProfileImage />
