@@ -3,7 +3,7 @@ import { View } from "react-native";
 
 const Untitled1 = () => {
   return <View style={{
-    backgroundColor: "#61de59",
+    backgroundColor: "#d4658b",
     padding: 10,
     position: "relative",
     height: "100%"
