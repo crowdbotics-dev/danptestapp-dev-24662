@@ -1,14 +1,18 @@
 import React from "react";
-import { View } from "react-native";
+import { View, StyleSheet } from "react-native";
 
 const Untitled1 = () => {
-  return <View style={{
-    backgroundColor: "#d4658b",
-    padding: 10,
-    position: "relative",
-    height: "100%"
-  }}>
+  return <View style={_styles.lojOTXnL}>
       </View>;
 };
 
 export default Untitled1;
+
+const _styles = StyleSheet.create({
+  lojOTXnL: {
+    backgroundColor: "#f0f0f1",
+    padding: 10,
+    position: "relative",
+    height: "100%"
+  }
+});
