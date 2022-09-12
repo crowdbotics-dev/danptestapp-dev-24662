@@ -1,10 +1,9 @@
-import { Switch } from "react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled1 = () => {
   return <View style={_styles.UspTIimn}>
-      <Switch style={_styles.MeQFgUTX} thumbColor="#ee4949"></Switch></View>;
+      </View>;
 };
 
 export default Untitled1;
