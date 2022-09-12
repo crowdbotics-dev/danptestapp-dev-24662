@@ -22,6 +22,6 @@ const _styles = StyleSheet.create({
     position: "absolute",
     width: 50,
     height: 25,
-    transform: "rotate(90deg)"
+    transform: "rotate(60deg)"
   }
 });
