@@ -3,22 +3,22 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled1 = () => {
-  return <View style={_styles.YXnLVSOm}>
-      <Switch style={_styles.KdhUFSSq} thumbColor="#da3737"></Switch></View>;
+  return <View style={_styles.UspTIimn}>
+      <Switch style={_styles.MeQFgUTX} thumbColor="#ee4949"></Switch></View>;
 };
 
 export default Untitled1;
 
 const _styles = StyleSheet.create({
-  YXnLVSOm: {
+  UspTIimn: {
     backgroundColor: "#f0f0f1",
     padding: 10,
     position: "relative",
     height: "100%"
   },
-  KdhUFSSq: {
-    left: 121.08908379653485,
-    top: 144.63418342363886,
+  MeQFgUTX: {
+    left: 112,
+    top: 104,
     position: "absolute",
     width: 50,
     height: 25,
