@@ -10,7 +10,7 @@ export default Untitled2;
 
 const _styles = StyleSheet.create({
   AiYjZHcl: {
-    backgroundColor: "#b8b8ef",
+    backgroundColor: "#679e45",
     padding: 10,
     position: "relative",
     height: "100%"
